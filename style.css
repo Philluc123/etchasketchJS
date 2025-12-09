@@ -1,0 +1,35 @@
+:root{
+    --gridSize: 16;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+#options{
+    margin-bottom: 10px;}
+
+
+.game-board{
+    border: 5px solid black;
+    display: flex;
+    flex-wrap: wrap;
+    width: 75vmin;
+    height: 75vmin;
+    box-sizing: border-box;
+    
+    
+}
+
+.square{
+    flex: 1 1 calc(100% / var(--gridSize));
+    aspect-ratio: 1/1;
+    border: 1px solid grey;
+    box-sizing: border-box;
+}
+.square:hover{
+    background-color: black;
+}
