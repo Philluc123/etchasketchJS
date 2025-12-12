@@ -30,14 +30,26 @@ document.getElementById("submit").onclick = () => {
     
     let gameSize = parseInt(userInput);
 
-    if(isNaN(gameSize) || gameSize < 1 || gameSize > 100){
-        alert("Please enter a number between 1 and 100");
-        return;
-    }
-    // let inputSize = 20;
+    // if(isNaN(gameSize) || gameSize < 1 || gameSize > 100){
+    //     alert("Please enter a number between 1 and 100");
+    //     return;
+    // }
+    // // let inputSize = 20;
     updateBoardSize(gameSize)
 }
 
-const selectedSquare = document.get
+document.addEventListener("mouseenter", (e) => {
+    
+   
+    if(e.target.classList.contains("square") == true ){
+        const selected = e.target
+        selected.style.backgroundColor = "blue";
+    }
+        
+
+
+},
+
+true);
 
 
