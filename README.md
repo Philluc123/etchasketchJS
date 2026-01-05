@@ -1,4 +1,4 @@
-## Etch-A-Sketch JS </br>
+## Etch-A-Sketch JS (The Odin Project) </br>
 A browser-based drawing application that combines the functionality of a sketchpad with the nostalgia of an Etch-A-Sketch. Built as part of The Odin Project Foundations course.
 Features
 
